@@ -10,17 +10,19 @@ A simple tradional calculator built with *HTML*, *CSS* and *javascript*. In this
 1.  Addition, subtraction, multiplication and division
 2.  user-friendly interface
 3.  error-handling for invalid input
-4.  
+   
+----- 
 
 ##  Technologies
 
 -  **HTML**
 -  **CSS**
 -  **JAVASCRIPT**
--  
+  
+------
 
 ## hOW TO RUN
 
-[Click here to view the repository]()
+[Click here to view the repository](https://github.com/Amnaakhtar1213/calculator.git)
 ```bash
-git clone 
+git clone https://github.com/Amnaakhtar1213/calculator.git
