@@ -35,7 +35,7 @@ Here's take a quick view:
 ## LIVE 🌐
 
 Here's you can test yourself:
-- [Click here for live-demo]( https://amnaakhtar1213.github.io/calculator/)
+- [Click here for live-demo](https://amnaakhtar1213.github.io/calculator/)
 
 -----------------------
 

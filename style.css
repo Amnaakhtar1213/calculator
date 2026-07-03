@@ -1,4 +1,4 @@
-button{
+/* button{
   width: 100px;
   height: 100px;
   border: none;
@@ -53,4 +53,64 @@ background-color: hsl(35, 100%, 75%);
 }
 .operator-btn{
 background-color: hsl(35, 100%, 55%);
+} */
+
+
+button {
+  width: clamp(60px, 15vw, 100px);   /* smaller scaling */
+  height: clamp(60px, 15vw, 100px);
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(228, 169, 19);
+  color: white;
+  font-size: clamp(1.2rem, 5vw, 2.5rem); /* reduced font scaling */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: clamp(5px, 2vw, 10px);
+  padding: clamp(10px, 4vw, 25px);
+}
+
+#calculator {
+  background-color: hsl(0, 0%, 15%);
+  border-radius: 15px;
+  max-width: 500px;
+  width: 95%;
+  overflow: hidden;
+}
+
+#display {
+  width: 100%;
+  padding: clamp(10px, 4vw, 20px);
+  font-size: clamp(2rem, 7vw, 4rem); /* smaller on mobile */
+  text-align: left;
+  border: none;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+  padding: 1rem;
+}
+
+/* 📱 Mobile tweaks */
+@media (max-width: 480px) {
+  button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;   /* smaller text */
+  }
+  #display {
+    font-size: 2.5rem;
+  }
 }
